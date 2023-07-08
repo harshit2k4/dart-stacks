@@ -5,7 +5,7 @@ class Stack<T> {
   // getting topmost element
   T get peak => _stack.last;
 
-  // getting lenght of element
+  // getting length of element
   int get length => _stack.length;
 
   // checking if the value from the stack can be removed
